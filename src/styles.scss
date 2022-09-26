@@ -1,0 +1,40 @@
+/* Dashboard Navigation Bar */
+
+.dashboard {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.dashboard-nav-menu {
+    border-right: rgb(140, 138, 138) solid .2px;
+    padding-top: 20px;
+}
+
+.dashboard-nav-item {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+        color: #39AD4A;
+        border-bottom:rgb(140, 138, 138) solid 1px;
+        border-top:rgb(140, 138, 138) solid 1px;
+    }
+
+}
+
+
+/* App Navigation Bar */
+.app-bar {
+    border-bottom: rgb(140, 138, 138) solid .1px;
+}
+
+.appbar-dd-nav-link {
+    display: flex;
+    align-items: flex-end;
+}
